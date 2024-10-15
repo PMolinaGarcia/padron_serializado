@@ -2,6 +2,7 @@
 * Padrón serializado.
 *Al ser el título obligatorio, si es nulo o vacío se lanzará
 * una excepción.
+* @author Pablo Molina García
 * * @param titulo Padrón.
 * @throws IllegalArgumentException Si titulo es null, está vacío o contiene sólo espacios.
 */package aplicacion;
