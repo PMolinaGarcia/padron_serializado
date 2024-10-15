@@ -1,4 +1,11 @@
-package aplicacion;
+/**
+* Padrón serializado.
+*Al ser el título obligatorio, si es nulo o vacío se lanzará
+* una excepción.
+* * @param titulo Padrón.
+* @throws IllegalArgumentException Si titulo es null, está vacío o contiene sólo espacios.
+*/package aplicacion;
+
 import presentacion.InterfazUsuario;
 
 import java.io.IOException;
