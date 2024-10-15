@@ -1,29 +1,38 @@
 package dominio;
-public class Habitante{
-	private String nombre;
-	private String apellido1;
-	private String apellido2;
-	public Habitante(String nombre, String apellido1, String apellido2){
-		this.nombre = nombre; 	
-		this.apellido1 = apellido1; 
-		this.apellido2 = apellido2;
-	}
-	public void setNombre(String nombre){
-		this.nombre = nombre;
-	}
-	public void setApellido1(String apellido1){
-		this.apellido1 = apellido1;
-	}
-	public void setApellido2(String apellido2){
-		this.apellido2 = apellido2;
-	}
-	public String getNombre(){
-		return nombre;
-	}
-	public String getApellido1(){
-		return apellido1;
-	}
-	public String getApellido2(){
-		return apellido2;
-	}
+import java.io.Serializable;
+
+//Implementamos serializable. En un interfaz solamente se define la cabecera de un conjunto de funciones. Que todas las clases se comprometan. Ahora el programa entiende que los objetos se pueden serializar en un objeto string; si no, no se podría. Nos interesa que se guarde todo, por eso lo importamos. Serializar es de más alto nivel, porque escribe todo y lo lee entero.
+public class Habitante implements Serializable{
+    private String nombre;
+    private String apellido1;
+    private String apellido2;
+    public Habitante(String nombre, String apellido1, String apellido2){
+        this.nombre = nombre;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+    public void setApellido1(String apellido1){
+        this.apellido1 = apellido1;
+    }
+    public void setApellido2(String apellido2){
+        this.apellido2 = apellido2;
+    }
+    public String getNombre(){
+        return nombre;
+    }
+    public String getApellido1(){
+        return apellido1;
+    }
+    public String getApellido2(){
+        return apellido2;
+    }
+
+    //El método toString tiene que llamarse así para sobreescribirse al otro método
+    public String toString(){
+        return apellido1+" "+apellido2+", "+nombre;
+
+    }
 }
