@@ -15,7 +15,7 @@ El proyecto está dividido en varios paquetes:
 ## Diagrama UML:
 Aquí tienes el diagrama UML de la estructura de clases y paquetes de la aplicación:
 
-![Diagrama UML](Diagrama_UML.png)
+![Diagrama UML](padron_serializado/src/Diagrama_UML.png)
 
 
 ## Uso:
