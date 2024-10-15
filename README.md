@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Aplicación de Gestión de Habitantes
 
+=======
+>>>>>>> 67a3c91c31d774283e2a99e32772d4b98569845d
 ## Autor: Pablo Molina García
 
 ## Descripción:
@@ -31,4 +34,8 @@ Utiliza los comandos de la interfaz de usuario para interactuar con el padrón:
         salir: Guarda el padrón y finaliza la aplicación.
 
 ## Licencia:
+<<<<<<< HEAD
 Este proyecto está licenciado bajo la Licencia Apache 2.0.
+=======
+Este proyecto está licenciado bajo la Licencia Apache 2.0.
+>>>>>>> 67a3c91c31d774283e2a99e32772d4b98569845d
