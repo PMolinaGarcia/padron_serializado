@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # Aplicación de Gestión de Habitantes
 
-=======
->>>>>>> 67a3c91c31d774283e2a99e32772d4b98569845d
+
 ## Autor: Pablo Molina García
 
 ## Descripción:
